@@ -1,0 +1,8 @@
+[{"instruction":"Branch =","syntax":"BEQ rs1, rs2, imm","type":"SB","description":"Jumps to address that is imm bytes ahead of the current address if val(rs1) == val(rs2)."}, 
+{"instruction":"Branch !=","syntax":"BNE rs1, rs2, imm","type":"SB","description":"Jumps to address that is imm bytes ahead of the current address if val(rs1) != val(rs2)."},
+{"instruction":"Branch <","syntax":"BLT rs1, rs2, imm","type":"SB","description":"Jumps to address that is imm bytes ahead of the current address if val(rs1) < val(rs2)."},
+{"instruction":"Branch >=","syntax":"BGE rs1, rs2, imm","type":"SB","description":"Jumps to address that is imm bytes ahead of the current address if val(rs1) >= val(rs2)."},
+{"instruction":"Branch < Unsigned","syntax":"BLTU rs1, rs2, imm","type":"SB","description":"Same as BLT, but rs1 and rs2 are compared as unsigned numbers."},
+{"instruction":"Branch >= Unsigned","syntax":"BGEU rs1, rs2, imm","type":"SB","description":"Same as BGE, but rs1 and rs2 are compared as unsigned numbers."}
+]
+

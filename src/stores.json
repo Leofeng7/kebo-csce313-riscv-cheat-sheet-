@@ -1,0 +1,11 @@
+[{"instruction":"Load Byte","syntax":"LB rd,rs1,imm","type":"I","description":"Loads 8 bits from memory into rd. The memory address is caluclated by adding imm to the value of rs1."}, 
+{"instruction":"Load Halfword","syntax":"LH rd,rs1,imm","type":"I","description":"Loads 16 bits from memory into rd. The memory address is caluclated by adding imm to the value of rs1."}, 
+{"instruction":"Load Word","syntax":"LW rd,rs1,imm","type":"I","description":"Loads 32 bits from memory into rd. The memory address is caluclated by adding imm to the value of rs1."}, 
+{"instruction":"Load Byte Unsigned","syntax":"LBU rd,rs1,imm","type":"I","description":"Same as Load Byte, but the loaded byte is sign extended to be positive."}, 
+{"instruction":"Load Half Unsigned","syntax":"LHU rd,rs1,imm","type":"I","description":"Same as Load Halfword, but the loaded byte is sign extended to be positive."}, 
+{"instruction":"Load Upper Imm","syntax":"LUI  rd,imm","type":"U","description":"Same as Load Word, but the loaded byte is sign extended to be positive." },
+{"instruction":"Store Byte","syntax":"SB rs1,rs2,imm","type":"S","description":"Stores 8 bits from rs1 into the memory address calculated by adding the value of rs2 and imm."}, 
+{"instruction":"Store Halfword","syntax":"SH rs1,rs2,imm","type":"S","description":"Stores 16 bits from rs1 into the memory address calculated by adding the value of rs2 and imm."}, 
+{"instruction":"Store Word","syntax":"SW rs1,rs2,imm","type":"S","description":"Stores 32 bits from rs1 into the memory address calculated by adding the value of rs2 and imm."}
+]
+

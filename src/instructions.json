@@ -1,0 +1,8 @@
+[{"Type of Instruction":"R", "description":"Logical or arithmetic instructions that involve two registers."},
+{"Type of Instruction":"I", "description":"Logical or arithmetic instructions that involve a register and an immediate value (constant)."}, 
+{"Type of Instruction":"S", "description":"Instructions that store data in memory."}, 
+{"Type of Instruction":"U", "description":"Instructions that load immediate values into the upper bits of a register."}, 
+{"Type of Instruction":"SB", "description":"Instructions that perform branching: transfers control based on comparison of two registers."}, 
+{"Type of Instruction":"UJ", "description":"Instructions that perform jumping: transfers control to another address unconditionally."}  
+]
+
