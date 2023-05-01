@@ -1,0 +1,4 @@
+[{"instruction":"J&L (Jump and Link)","syntax":"JAL rd,imm","type":"UJ","description":"Unconditionally jumps to the address specified by imm, stores the address of the instruction after this one (return address) in rd."},
+{"instruction":"Jump & Link Register","syntax":"JALR rd,rs1,imm","type":"UJ","description":"Unconditionally jumps to the address specified by the value of rs1 + imm, stores the address of the instruction after this one (return address) in rd."}
+]
+

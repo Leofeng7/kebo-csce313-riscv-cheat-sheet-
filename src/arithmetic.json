@@ -1,0 +1,7 @@
+[{"instruction":"ADD","syntax":"ADD  rd,rs1,rs2","type":"R","description":"Stores result of adding values in rs1 and rs2 in rd."}, 
+{"instruction":"SUBtract","syntax":"SUB  rd,rs1,rs2","type":"R","description":"Stores result of subtracting values in rs1 and rs2 in rd."},
+{"instruction":"ADD immediate","syntax":"ADDI  rd,rs1,imm","type":"I","description":"Stores result of adding a constant to value of rs1 in rd." },
+{"instruction":"Add Upper Imm to PC","syntax":"AUIPC rd,imm","type":"U","description":"Adds 20 bit constant into upper 20 bits of rd." },
+{"instruction":"Shift Right Arithmetic","syntax":"SRA rd,rs1,rs2","type":"R","description":"Shifts contents of rs1 to the right by amount specified by the lower 5 bits in rs2, fills vacated positions with copies of the sign bit." },
+{"instruction":"Shift Right Arith Imm","syntax":"SRAI rd,rs1,shamt","type":"I","description":"Shifts contents of rs1 to the right by amount specified by shamt, fills vacated positions with copies of the sign bit." }
+]

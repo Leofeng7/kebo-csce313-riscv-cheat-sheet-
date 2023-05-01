@@ -1,0 +1,12 @@
+[{"instruction":"XOR","syntax":"XOR  rd,rs1,rs2","type":"R","description":"Performs XOR on values in rs1 and rs2, stores result in rd."}, 
+{"instruction":"XOR Immediate","syntax":"XORI  rd,rs1,imm","type":"I","description":"Performs XOR on value in rs1 and a constant, stores result in rd."},
+{"instruction":"OR","syntax":"OR  rd,rs1,rs2","type":"R","description":"Performs OR on values in rs1 and rs2, stores result in rd."},
+{"instruction":"OR Immediate","syntax":"OR  rd,rs1,imm","type":"I","description":"Performs OR on value in rs1 and a constant, stores result in rd."},
+{"instruction":"AND","syntax":"AND  rd,rs1,rs2","type":"R","description":"Performs AND on values in rs1 and rs2, stores result in rd."},
+{"instruction":"AND Immediate","syntax":"ANDI  rd,rs1,imm","type":"I","description":"Performs AND on value in rs1 and a constant, stores result in rd."},
+{"instruction":"Shift Left","syntax":"SLL rd, rs1, rs2","type":"R","description":"Shifts contents of rs1 to the left by amount specified by the lower 5 bits in rs2, vacant positions are filled with zero."},
+{"instruction":"Shift Left Immediate","syntax":"SLLI, rd, rs1, shamt","type":"I","description":"Shifts contents of rs1 to the left by amount specified by shamt, vacant positions are filled with zero."},
+{"instruction":"Shift Right","syntax":"SRL rd, rs1, rs2","type":"R","description":"Shifts contents of rs1 to the right by amount specified by the lower 5 bits in rs2, vacant positions are filled with zero." },
+{"instruction":"Shift Right Immediate","syntax":"SRLI rd, rs1, shamt","type":"I","description":"Shifts contents of rs1 to the right by amount specified by shamt, vacant positions are filled with zero." }
+]
+

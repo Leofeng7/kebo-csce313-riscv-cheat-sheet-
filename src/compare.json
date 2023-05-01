@@ -1,0 +1,6 @@
+[{"instruction":"Set <","syntax":"SLT rd,rs1,rs2","type":"R","description":"Sets rd to 1 if the value in rs1 is less than the value in rs2, and 0 otherwise."},
+{"instruction":"Set < Immediate","syntax":"SLTI rd,rs1,imm","type":"I","description":"Sets rd to 1 if the value in rs1 is less than imm, and 0 otherwise."},
+{"instruction":"Set < Unsigned","syntax":"SLTU rd,rs1,rs2","type":"R","description":"Same as Set <, but the values are compared as unsigned."},
+{"instruction":"Set < Imm Unsigned","syntax":"SLTIU rd,rs1,imm","type":"I","description":"Same as Set < Immediate, but the values are compared as unsigned."}
+]
+
