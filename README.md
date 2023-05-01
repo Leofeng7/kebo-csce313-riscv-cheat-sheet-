@@ -1,4 +1,4 @@
-Made By : Leo Feng
+Author : Leo Feng
 
 In order to run : 
 1. npm install
